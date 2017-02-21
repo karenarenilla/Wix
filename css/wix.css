@@ -1,0 +1,31 @@
+.navbar-default{
+    background-color: transparent;
+    z-index: 1000;
+    position: fixed;
+}
+.row{
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.inicio, .inicio-dos {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+.home, .inicio .image-inicio {
+    background-image: url(../imagen/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-position: center;
+}
+
+.home-dos, .inicio-dos .image-inic {
+    background-image: url(../imagen/6.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
